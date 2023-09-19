@@ -1,0 +1,88 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+#navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    z-index: 100;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#welcome-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#welcome-section h1 {
+    font-size: 36px;
+}
+
+#projects {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.project-title {
+    font-size: 24px;
+}
+
+#projects a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#projects a:hover {
+    text-decoration: underline;
+}
+
+#project-yusuf {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#profile-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#profile-link:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:760px){
+    #navbar{
+        text-align: end;
+    }
+}
